@@ -10,7 +10,6 @@ Complexidade de Venda - Barreiras de entrada e complexidade para ativar, vender 
 
 
 
-
 SUMÁRIO
 1.	INTRODUÇÃO	4
 2.	DESENVOLVIMENTO	6
