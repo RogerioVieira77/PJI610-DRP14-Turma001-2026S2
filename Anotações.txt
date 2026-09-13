@@ -1,0 +1,74 @@
+Qual foi a metodologia usada para definir esses critérios de classificação dos Segmentos Alvo?
+
+Precisamos de uma descrição de cada um deles, eu fiz uma para o primeiro e para o terceiro, o segundo eu não entendi muito bem...
+
+Motivação Principal de Compra – Definição dos motivos que motivariam um representante desse segmento a investir em uma solução desse tipo.
+Capacidade Financeira & Ciclo
+Complexidade de Venda - Barreiras de entrada e complexidade para ativar, vender e faturar para o segmento.
+
+
+
+
+
+
+SUMÁRIO
+1.	INTRODUÇÃO	4
+2.	DESENVOLVIMENTO	6
+2.1	OBJETIVO	6
+2.2	OBJETIVOS ESPECÍFICOS	7
+2.3	JUSTIFICATIVA E DELIMITAÇÃO DO PROBLEMA	7
+2.4	FUNDAMENTAÇÃO TEÓRICA	8
+2.5	CONCEITUAÇÃO E FUNÇÃO DOS PÔLDERS	9
+2.6	METODOLOGIA	10
+3.	COLETA DE DADOS POR MEIO DE QUESTIONÁRIO COMUNITÁRIO	20
+3.1	TÍTULO DO QUESTIONÁRIO	23
+3.2	OBJETIVOS DO QUESTIONÁRIO	23
+3.3	METODOLOGIA DE APLICAÇÃO	23
+3.4	ANÁLISE DOS RESULTADOS	23
+3.5	DISCUSSÃO DOS RESULTADOS	30
+3.6	CONSIDERAÇÕES PARCIAIS	31
+3.7	RECOMENDAÇÕES	32
+3.8	CONSIDERAÇÕES PARCIAIS	32
+4.	DESENVOLVIMENTO	33
+4.1	EFICÁCIA DA INFRAESTRUTURA DE DRENAGEM	33
+4.2	RELEVÂNCIA DA SOLUÇÃO DE IOT PROPOSTA	33
+4.3	DIAGNÓSTICO SOCIAL E TECNOLÓGICO	33
+4.4	LIMITAÇÕES E PERSPECTIVAS PARA A ETAPA FINAL
+5.	PLANO DE NEGOCIO
+6.	CONCLUSÃO
+
+
+Repositório do Projeto Integrador PI-VI da UNIVESP - DRP14, Turma 001 - Segundo Semestre de 2026
+
+PJI610-DRP14-Turma001-2026S2
+
+
+
+1. Detalhamento do Problema
+1.1 Formalização do Problema Relacionado ao Monitoramento de Reservatórios
+A gestão contemporânea de reservatórios de contenção de águas pluviais (piscinões, pôlders, bacias de retenção e barragens) enfrenta um gargalo estrutural: a invisibilidade operacional em tempo real. Historicamente, o acompanhamento do volume de ocupação e da taxa de escoamento desses ativos é realizado de forma passiva, manual ou com instrumentação desconectada. Em episódios de precipitação severa, a ausência de dados contínuos resulta na incapacidade de prever o momento exato do transbordamento, na detecção tardia de falhas em bombas de drenagem e na impossibilidade de acionar protocolos preventivos de segurança antes da instalação do caos urbano ou industrial.
+1.2 Identificação dos Impactos Relacionados a Alagamentos
+Os eventos de inundação e alagamento desdobram-se em prejuízos multidisciplinares que afetam diretamente o setor público, empresas e a sociedade:
+●	Segurança Pública e Preservação de Vidas: Riscos iminentes de fatalidades por afogamento, arrastamento de veículos e represamento de comunidades vulneráveis sem rotas de fuga mapeadas.
+●	Prejuízos Financeiros e Ativos de Infraestrutura: Destruição de estoques industriais, danos a equipamentos elétricos/mecânicos, degradação do pavimento urbano e custos astronômicos de reconstrução pós-desastre.
+●	Descontinuidade de Negócios e Mobilidade: Paralisação de cadeias de suprimentos, bloqueio de vias expressas e ferrovias, e desvalorização imobiliária em regiões afetadas.
+●	Saúde Pública e Responsabilidade Civil/Legal: Propagação de doenças de veiculação hídrica (leptospirose, hepatite A) e proliferação de ações judiciais contra gestores públicos e concessionárias por omissão de socorro ou negligência.
+1.3 Delimitação do Problema Específico que a Solução Pretende Resolver
+A solução delimita-se especificamente a resolver o vazio comunicacional e analítico existente entre o reservatório e a tomada de decisão. O sistema não busca alterar a engenharia civil das barragens ou piscinões, mas sim fornecer a camada de inteligência de dados que conecta a telemetria física do reservatório às centrais de comando e aos canais de alerta imediato da população e das equipes operacionais.
+1.4 Relação do Problema à Necessidade de Monitoramento em Tempo Real
+O tempo de reação durante uma tempestade é contado em minutos. O monitoramento em tempo real viabilizado por sensores IoT e inteligência de dados resolve esse problema ao eliminar a defasagem temporal de comunicação. Ao transformar dados brutos de profundidade e pluviometria em notificações automatizadas instantâneas (SMS, WhatsApp, Push, E-mail, Sirenes), a solução desloca a postura do gestor da reação mitigatória (pós-desastre) para a prevenção ativa (pré-desastre).
+2. Análise Inicial de Mercado
+O mercado global de gestão ambiental e controle de inundações passa por uma transição acelerada impulsionada por eventos climáticos extremos e regulamentações mais rígidas de ESG (Environmental, Social, and Governance):
+●	Mercado de Monitoramento de Reservatórios: Movimenta bilhões anualmente no mundo, impulsionado pela necessidade de adequação às normas de segurança de barragens (PNSB) e modernização da drenagem urbana.
+●	Aplicações Similares de IoT: Observa-se o crescimento de redes de sensores ultrassônicos e controle de nível em saneamento (água/esgoto) e estações meteorológicas privadas conectadas por LoRaWAN e 4G/5G.
+●	Tendências em Cidades Inteligentes (Smart Cities): A integração de gêmeos digitais (Digital Twins), redes de sensores descentralizadas e algoritmos preditivos para resiliência urbana e adaptação às mudanças climáticas lideram as prioridades orçamentárias públicas.
+●	Cenário Potencial de Utilização: Aplica-se a bacias hidrográficas municipais, piscinões públicos, barramentos de mineração/hidrelétricas, pátios logísticos, plantas industriais em várzeas e rodovias concessionadas.
+3. Problema, Mercado e Público-Alvo
+Para o sucesso comercial da plataforma, é fundamental diferenciar com clareza quem contrata, quem opera e quem se beneficia da solução:
+●	Potenciais Clientes (Compradores): Prefeituras Municipais (Secretarias de Obras/Infraestrutura), Governos Estaduais, Concessionárias de Rodovias/Ferrovias, Indústrias farmacêuticas/automotivas e Operadores de saneamento.
+●	Usuários da Plataforma (Operacional): Agentes da Defesa Civil, engenheiros hidrólogos, operadores do Centro de Controle Operacional (CCO) e gerentes de EHS (Environment, Health and Safety).
+●	Beneficiários Finais: Cidadãos e moradores de áreas vulneráveis, motoristas em rodovias e funcionários de complexos industriais.
+
+
+
+
